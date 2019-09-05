@@ -17,7 +17,7 @@ def test(t, lista):
 	global i
 	global tmpfinal
 	logging.info(lista)
-	dominio = 'xytimtumtom.com'
+	dominio = 'pudim.com.br'
  
 	try:
 		arquivo = open(lista)
