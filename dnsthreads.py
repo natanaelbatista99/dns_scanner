@@ -50,17 +50,17 @@ def test(t, lista):
 format = "%(asctime)s: %(message)s"
 logging.basicConfig(format=format, level=logging.INFO, datefmt="%H:%M:%S")
 
-t1 = Thread(target=test, args=(1, 'lt1.txt',))
+t1 = Thread(target=test, args=(1, 'lt1-100.txt',))
 t1.start()
 
-t2 = Thread(target=test, args=(2, 'lt2.txt',))
+t2 = Thread(target=test, args=(2, 'lt2-100.txt',))
 t2.start()
 
-t3 = Thread(target=test, args=(3, 'lt3.txt',))
+t3 = Thread(target=test, args=(3, 'lt3-100.txt',))
 t3.start()
 
-t4 = Thread(target=test, args=(4, 'lt4.txt',))
+t4 = Thread(target=test, args=(4, 'lt4-100.txt',))
 t4.start()
 
-t5 = Thread(target=test, args=(5, 'lt5.txt',))
+t5 = Thread(target=test, args=(5, 'lt5-100.txt',))
 t5.start()
